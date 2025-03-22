@@ -11,6 +11,10 @@ using MyPymeGames.API.Services;
 using MyPymeGames.API.Validators;
 using MyPymeGames.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
+using MyPymeGames.Core.Interfaces;
+
+Environment.CurrentDirectory = AppContext.BaseDirectory;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +44,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IUserRepository>();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -80,5 +85,8 @@ app.UseCors("AllowAngular");
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+
+// otros servicios 
+
 
 app.Run();

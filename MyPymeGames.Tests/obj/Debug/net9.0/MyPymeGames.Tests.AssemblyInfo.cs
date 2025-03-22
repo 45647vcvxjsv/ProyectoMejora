@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyPymeGames.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c92cab9971457416c4e5a642f7e018160b835b9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+147ff26e4e86c9feb5e1463060d49eae6926b181")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyPymeGames.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyPymeGames.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

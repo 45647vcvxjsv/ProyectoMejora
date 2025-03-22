@@ -8,5 +8,8 @@ namespace MyPymeGames.Core.Interfaces
         Task<User?> GetByEmailAsync(string email);
         Task<bool> CreateAsync(User user);
         Task<bool> UpdateAsync(User user);
+        Task<bool> DeleteAsync(int id);
+        Task<bool> AddAsync(User user);
+    
     }
 }

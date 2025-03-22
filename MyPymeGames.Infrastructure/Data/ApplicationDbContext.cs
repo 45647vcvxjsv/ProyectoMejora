@@ -1,5 +1,6 @@
-
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using System.IO;
 using MyPymeGames.Core.Entities;
 
 namespace MyPymeGames.Infrastructure.Data
@@ -23,7 +24,14 @@ namespace MyPymeGames.Infrastructure.Data
                 entity.Property(e => e.PasswordHash).IsRequired();
                 entity.Property(e => e.CreatedAt).HasDefaultValueSql("CURRENT_TIMESTAMP");
             });
+
+            // datos iniciales 
+            modelBuilder.Entity<User>().HasData(
+                new User {Id = 1, Username = "admin", Email = "admin@mypymegames.com", PasswordHash = "AQAAAAEAACcQAAAAEJ9"},
+                new User {Id = 2, Username = "usuario1", Email = "usuario1@example.com", PasswordHash = "Anotherpassword"},
+                new User {Id = 3, Username = "usuario2", Email = "usuario2@example.com", PasswordHash = "Anotherpassword2"},
+                new User {Id = 4, Username = "usuario3", Email = "usuario3@example.com", PasswordHash = "Anotherpassword3"}
+            );
         }
-    }
-    
+    }   
 }

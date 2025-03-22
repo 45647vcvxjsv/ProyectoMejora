@@ -1,0 +1,12 @@
+/Users/luisalvarez/Documents/ProyectoMejora/MyPymeGames/MyPymeGames.Core/bin/Debug/net9.0/MyPymeGames.Core.deps.json
+/Users/luisalvarez/Documents/ProyectoMejora/MyPymeGames/MyPymeGames.Core/bin/Debug/net9.0/MyPymeGames.Core.dll
+/Users/luisalvarez/Documents/ProyectoMejora/MyPymeGames/MyPymeGames.Core/bin/Debug/net9.0/MyPymeGames.Core.pdb
+/Users/luisalvarez/Documents/ProyectoMejora/MyPymeGames/MyPymeGames.Core/obj/Debug/net9.0/MyPymeGames.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luisalvarez/Documents/ProyectoMejora/MyPymeGames/MyPymeGames.Core/obj/Debug/net9.0/MyPymeGames.Core.AssemblyInfoInputs.cache
+/Users/luisalvarez/Documents/ProyectoMejora/MyPymeGames/MyPymeGames.Core/obj/Debug/net9.0/MyPymeGames.Core.AssemblyInfo.cs
+/Users/luisalvarez/Documents/ProyectoMejora/MyPymeGames/MyPymeGames.Core/obj/Debug/net9.0/MyPymeGames.Core.csproj.CoreCompileInputs.cache
+/Users/luisalvarez/Documents/ProyectoMejora/MyPymeGames/MyPymeGames.Core/obj/Debug/net9.0/MyPymeGames.Core.sourcelink.json
+/Users/luisalvarez/Documents/ProyectoMejora/MyPymeGames/MyPymeGames.Core/obj/Debug/net9.0/MyPymeGames.Core.dll
+/Users/luisalvarez/Documents/ProyectoMejora/MyPymeGames/MyPymeGames.Core/obj/Debug/net9.0/refint/MyPymeGames.Core.dll
+/Users/luisalvarez/Documents/ProyectoMejora/MyPymeGames/MyPymeGames.Core/obj/Debug/net9.0/MyPymeGames.Core.pdb
+/Users/luisalvarez/Documents/ProyectoMejora/MyPymeGames/MyPymeGames.Core/obj/Debug/net9.0/ref/MyPymeGames.Core.dll
